@@ -86,7 +86,7 @@ TravelGo_Project
 
 ## ▶️ How to Run the Project
 
-### 1️⃣ Install Dependencies
+##1️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
@@ -94,8 +94,7 @@ pip install -r requirements.txt
 python app.py
 3️⃣ Open in Browser
 http://127.0.0.1:5000
----
-###👨‍💻 Project Team Name
+##👨‍💻 Project Team Name
 Brahma K
 Joel Mhasraj
 Mohammed Saqib
