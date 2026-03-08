@@ -12,3 +12,11 @@ The application is built using Flask, deployed on AWS EC2, and powered by Amazon
 ❌ Booking Cancellation Workflow
 📧 Real-Time Email Notifications via AWS SNS
 📊 Personalized Dashboard with Travel History
+🏗️ Technology Stack
+Layer	Technology
+Backend	Flask (Python)
+Cloud Hosting	AWS EC2
+Database	Amazon DynamoDB
+Notifications	AWS SNS
+Web Server	Gunicorn + Nginx
+Monitoring	AWS CloudWatch
