@@ -87,7 +87,7 @@ TravelGo_Project
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Install Dependencies
-```bash
+
 pip install -r requirements.txt
 
 2️⃣ Run the Application
