@@ -96,7 +96,10 @@ http://127.0.0.1:5000
 
 👨‍💻 Project Team Name
 Brahma K
+
 Joel Mhasraj
+
 Mohammed Saqib
+
 Tejaswini N
 ---
