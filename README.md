@@ -1,105 +1,66 @@
 # ✈️ TravelGo  
 ### 🌐 A Cloud-Powered Real-Time Travel Booking Platform Using AWS
-
 ---
+TravelGo is a cloud-based travel booking system built using **Python Flask and AWS services**.
+The platform allows users to search and book **buses, trains, flights, and hotels** in real time.
 
-## 📌 Project Overview
+## Technologies Used
 
-**TravelGo** is a cloud-powered web application that allows users to **search, explore, and book travel services** such as **buses, trains, flights, and hotels in real time**.
+* Python (Flask Framework)
+* Amazon EC2 – Hosting the application
+* Amazon DynamoDB – User and booking database
+* Amazon SNS – Booking notifications
+* HTML, CSS – Frontend templates
+* GitHub – Version control
 
-The platform provides a **simple, fast, and user-friendly interface** for booking travel tickets and managing reservations.
+## Features
 
-This project demonstrates how **cloud technologies and modern web development** can be used to build **scalable and efficient travel booking systems**.
+* User Registration and Login
+* Search for Bus, Train, Flight, and Hotels
+* Seat Selection
+* Secure Booking and Payment
+* Booking Dashboard
+* Email Notification using AWS SNS
+* Booking History stored in DynamoDB
 
----
+## Project Architecture
 
-## 🚀 Key Features
+User → Flask Application (EC2) → DynamoDB Database
+↓
+SNS Notification
 
-| Feature | Description |
-|------|------|
-| 👤 User Authentication | Secure **user registration and login system** |
-| 🚌 Bus Booking | Search and book bus tickets |
-| 🚆 Train Booking | Reserve train tickets easily |
-| ✈️ Flight Booking | Book domestic and international flights |
-| 🏨 Hotel Booking | Discover and reserve hotels |
-| 💺 Seat Selection | Interactive seat selection interface |
-| 💳 Payment Simulation | Secure payment page simulation |
-| 🎫 Ticket Generation | Automatic ticket generation after booking |
-| 📊 Dashboard | Manage bookings from user dashboard |
+## Installation (Local Setup)
 
----
+Clone the repository:
 
-## 🛠️ Technologies Used
+git clone https://github.com/Brahma2004/TravelGo_Project.git
 
-### 💻 Backend
-- Python  
-- Flask Framework  
+Move into project folder:
 
-### 🎨 Frontend
-- HTML5  
-- CSS3  
-- JavaScript  
+cd TravelGo_Project/TRAVELGO
 
-### 🗄️ Database
-- MongoDB *(or)*  
-- Cloud Database Integration  
-
----
-
-## ☁️ AWS Cloud Services
-
-TravelGo is designed to be deployed using **Amazon Web Services (AWS)**.
-
-| AWS Service | Purpose |
-|------|------|
-| 🖥 Amazon EC2 | Host the web application |
-| 📦 Amazon S3 | Store static files and assets |
-| 🗄 Amazon DynamoDB / MongoDB Atlas | Manage application database |
-| 🔐 AWS IAM | Secure access and permissions |
-| 📊 AWS CloudWatch | Monitor application performance |
-
-These services ensure **high availability, scalability, and security**.
-
----
-
-## 📂 Project Structure
-TravelGo_Project
-│
-├── TRAVELGO
-│ ├── app.py
-│ ├── requirements.txt
-│ ├── templates
-│ │ ├── index.html
-│ │ ├── login.html
-│ │ ├── register.html
-│ │ ├── dashboard.html
-│ │ ├── bus.html
-│ │ ├── train.html
-│ │ ├── flight.html
-│ │ ├── hotels.html
-│ │ ├── seat.html
-│ │ ├── payment.html
-│ │ └── ticket.html
-│
-└── README.md
----
-
-▶️ How to Run the Project
-1️⃣ Install Dependencies
+Install dependencies:
 
 pip install -r requirements.txt
 
-2️⃣ Run the Application
+Run the application:
+
 python app.py
-3️⃣ Open in Browser
-http://127.0.0.1:5000
----
-👨‍💻 Project Team Name
 
-Brahma K
+Open in browser:
 
-Joel Mhasraj
+http://localhost:5000
 
-Mohammed Saqib
+## Team Members
+
+* Brahma K
+* Mohammed Saqib
+* Joel Mhasraj
+* Tejaswini N
+
+## License
+
+This project is for educational purposes.
+
 
 Tejaswini N
