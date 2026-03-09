@@ -62,5 +62,3 @@ http://localhost:5000
 
 This project is for educational purposes.
 
-
-Tejaswini N
